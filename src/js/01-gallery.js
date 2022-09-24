@@ -32,5 +32,7 @@ function createGalleryMarkup(_item) {
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
+  captionPosition: 'bottom',
   overlayOpacity: 0.9,
+  nav: true,
 });
